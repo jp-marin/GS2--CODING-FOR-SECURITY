@@ -1,1 +1,56 @@
-
+2026-11-10 08:41:57 | ação=WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-10 08:41:57 | ação=Press CTRL+C to quit
+2026-11-10 08:42:22 | ação=127.0.0.1 - - [10/Nov/2026 08:42:22] "GET / HTTP/1.1" 200 -
+2026-11-10 08:42:22 | ação=127.0.0.1 - - [10/Nov/2026 08:42:22] "GET /static/css/estilo.css HTTP/1.1" 200 -
+2026-11-10 08:42:22 | ação=127.0.0.1 - - [10/Nov/2026 08:42:22] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-11-10 08:42:22 | ação=127.0.0.1 - - [10/Nov/2026 08:42:22] "GET /favicon.ico HTTP/1.1" 404 -
+2026-11-10 08:42:22 | ação=CONSULTA_ESTADOS | resultado=SUCESSO
+2026-11-10 08:42:22 | ação=127.0.0.1 - - [10/Nov/2026 08:42:22] "GET /api/estados HTTP/1.1" 200 -
+2026-11-10 08:42:22 | ação=LISTAR_OCORRENCIAS | resultado=SUCESSO
+2026-11-10 08:42:22 | ação=127.0.0.1 - - [10/Nov/2026 08:42:22] "GET /api/ocorrencias HTTP/1.1" 200 -
+2026-11-10 08:43:31 | ação=CRIAR_OCORRENCIA | resultado=SUCESSO
+2026-11-10 08:43:31 | ação=127.0.0.1 - - [10/Nov/2026 08:43:31] "POST /api/ocorrencias HTTP/1.1" 201 -
+2026-11-10 08:43:31 | ação=LISTAR_OCORRENCIAS | resultado=SUCESSO
+2026-11-10 08:43:31 | ação=127.0.0.1 - - [10/Nov/2026 08:43:31] "GET /api/ocorrencias HTTP/1.1" 200 -
+2026-11-10 10:13:40 | ação=WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-10 10:13:40 | ação=Press CTRL+C to quit
+2026-11-10 10:14:03 | ação=127.0.0.1 - - [10/Nov/2026 10:14:03] "GET / HTTP/1.1" 200 -
+2026-11-10 10:14:03 | ação=127.0.0.1 - - [10/Nov/2026 10:14:03] "GET /static/css/estilo.css HTTP/1.1" 304 -
+2026-11-10 10:14:03 | ação=127.0.0.1 - - [10/Nov/2026 10:14:03] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-11-10 10:14:03 | ação=LISTAR_OCORRENCIAS | resultado=SUCESSO
+2026-11-10 10:14:03 | ação=127.0.0.1 - - [10/Nov/2026 10:14:03] "GET /api/ocorrencias HTTP/1.1" 200 -
+2026-11-10 10:14:03 | ação=CONSULTA_ESTADOS | resultado=SUCESSO
+2026-11-10 10:14:03 | ação=127.0.0.1 - - [10/Nov/2026 10:14:03] "GET /api/estados HTTP/1.1" 200 -
+2026-11-10 10:15:53 | ação=LISTAR_OCORRENCIAS | resultado=SUCESSO
+2026-11-10 10:15:53 | ação=127.0.0.1 - - [10/Nov/2026 10:15:53] "GET /api/ocorrencias HTTP/1.1" 200 -
+2026-11-10 10:17:47 | ação=CRIAR_OCORRENCIA | resultado=SUCESSO
+2026-11-10 10:17:47 | ação=127.0.0.1 - - [10/Nov/2026 10:17:47] "POST /api/ocorrencias HTTP/1.1" 201 -
+2026-11-10 10:17:47 | ação=CONSULTAR_OCORRENCIA | resultado=SUCESSO
+2026-11-10 10:17:47 | ação=127.0.0.1 - - [10/Nov/2026 10:17:47] "GET /api/ocorrencias/2 HTTP/1.1" 200 -
+2026-11-10 10:17:47 | ação=ATUALIZAR_OCORRENCIA | resultado=SUCESSO
+2026-11-10 10:17:47 | ação=127.0.0.1 - - [10/Nov/2026 10:17:47] "PUT /api/ocorrencias/2 HTTP/1.1" 200 -
+2026-11-10 10:17:47 | ação=EXCLUIR_OCORRENCIA | resultado=SUCESSO
+2026-11-10 10:17:47 | ação=127.0.0.1 - - [10/Nov/2026 10:17:47] "DELETE /api/ocorrencias/2 HTTP/1.1" 200 -
+2026-11-10 10:17:47 | ação=CONSULTAR_OCORRENCIA | resultado=NAO_ENCONTRADO
+2026-11-10 10:17:47 | ação=127.0.0.1 - - [10/Nov/2026 10:17:47] "GET /api/ocorrencias/2 HTTP/1.1" 404 -
+2026-11-10 10:19:53 | ação=CRIAR_OCORRENCIA | resultado=DADOS_INVALIDOS
+2026-11-10 10:19:53 | ação=127.0.0.1 - - [10/Nov/2026 10:19:53] "POST /api/ocorrencias HTTP/1.1" 400 -
+2026-11-10 10:20:52 | ação=CONSULTA_ESTADOS | resultado=SUCESSO
+2026-11-10 10:20:52 | ação=127.0.0.1 - - [10/Nov/2026 10:20:52] "GET /api/estados HTTP/1.1" 200 -
+2026-11-10 10:21:53 | ação=127.0.0.1 - - [10/Nov/2026 10:21:53] "GET / HTTP/1.1" 200 -
+2026-11-10 10:21:53 | ação=127.0.0.1 - - [10/Nov/2026 10:21:53] "GET /static/css/estilo.css HTTP/1.1" 304 -
+2026-11-10 10:21:53 | ação=127.0.0.1 - - [10/Nov/2026 10:21:53] "GET /static/js/app.js HTTP/1.1" 304 -
+2026-11-10 10:21:53 | ação=LISTAR_OCORRENCIAS | resultado=SUCESSO
+2026-11-10 10:21:53 | ação=127.0.0.1 - - [10/Nov/2026 10:21:53] "GET /api/ocorrencias HTTP/1.1" 200 -
+2026-11-10 10:21:53 | ação=CONSULTA_ESTADOS | resultado=SUCESSO
+2026-11-10 10:21:53 | ação=127.0.0.1 - - [10/Nov/2026 10:21:53] "GET /api/estados HTTP/1.1" 200 -
+2026-11-10 10:22:45 | ação=CRIAR_OCORRENCIA | resultado=SUCESSO
+2026-11-10 10:22:45 | ação=127.0.0.1 - - [10/Nov/2026 10:22:45] "POST /api/ocorrencias HTTP/1.1" 201 -
+2026-11-10 10:22:45 | ação=LISTAR_OCORRENCIAS | resultado=SUCESSO
+2026-11-10 10:22:45 | ação=127.0.0.1 - - [10/Nov/2026 10:22:45] "GET /api/ocorrencias HTTP/1.1" 200 -
+2026-11-10 10:23:43 | ação=CRIAR_OCORRENCIA | resultado=SUCESSO
+2026-11-10 10:23:43 | ação=127.0.0.1 - - [10/Nov/2026 10:23:43] "POST /api/ocorrencias HTTP/1.1" 201 -
+2026-11-10 10:23:43 | ação=LISTAR_OCORRENCIAS | resultado=SUCESSO
+2026-11-10 10:23:43 | ação=127.0.0.1 - - [10/Nov/2026 10:23:43] "GET /api/ocorrencias HTTP/1.1" 200 -
